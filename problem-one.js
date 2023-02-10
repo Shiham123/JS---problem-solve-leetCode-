@@ -1,6 +1,6 @@
 // first problem solve ===========================================
 
-/*
+
 const arr = [1,2,3,4]
 function sum(num, target){
   for(let i = 0; i < num.length; i++){
@@ -15,12 +15,12 @@ function sum(num, target){
 }
 
 sum(arr, 6)
-*/
+
 
 
 // second problem =========================
 
-/*
+
 var removeDuplicates = function(nums) {
   let k = 0;
   for (let i = 0; i <= nums.length; i++) {
@@ -33,4 +33,3 @@ var removeDuplicates = function(nums) {
 }
 
 removeDuplicates([0,0,1,1,1,2,2,3,3,4])
-*/

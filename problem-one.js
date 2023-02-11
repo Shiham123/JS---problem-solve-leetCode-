@@ -18,6 +18,7 @@ function sum(num, target){
 
 sum(arr, 6)
 
+<<<<<<< HEAD
 // Frist problem solution an alternative solution
 
 function sumIndex(arr, value){
@@ -32,6 +33,8 @@ function sumIndex(arr, value){
 }
 
 sumIndex([1,2,3,4],7)
+=======
+>>>>>>> 21c0696bb942abafe9077955f53e12ca7e08d2fd
 
 
 // second problem =========================
@@ -49,5 +52,8 @@ var removeDuplicates = function(nums) {
 }
 
 removeDuplicates([0,0,1,1,1,2,2,3,3,4])
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 21c0696bb942abafe9077955f53e12ca7e08d2fd

@@ -48,3 +48,26 @@ var removeDuplicates = function(nums) {
 }
 
 removeDuplicates([0,0,1,1,1,2,2,3,3,4])
+
+
+// ----- remove duplicates and count the array 
+
+var removeElement = function(nums, val) {
+  let i = 0
+  let j = nums.length - 1
+    
+  while (i <= j) {
+    
+    if(nums[i] === val){
+      let temp = nums[i]
+      nums[i] = nums[j]
+      nums[j] = temp
+      j--
+    }else{
+      i++
+    }
+  }
+  return i
+}
+  
+console.log(removeElement([0,1,2,2,3,0,4,2],2))

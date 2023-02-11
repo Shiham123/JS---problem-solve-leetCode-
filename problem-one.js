@@ -34,8 +34,6 @@ function sumIndex(arr, value){
 sumIndex([1,2,3,4],7)
 
 // second problem =========================
-
-
 var removeDuplicates = function(nums) {
   let k = 0;
   for (let i = 0; i <= nums.length; i++) {
@@ -49,9 +47,8 @@ var removeDuplicates = function(nums) {
 
 removeDuplicates([0,0,1,1,1,2,2,3,3,4])
 
-
-// ----- remove duplicates and count the array 
-
+// third problem solution==============================
+// ----- remove duplicates and count the array ==============
 var removeElement = function(nums, val) {
   let i = 0
   let j = nums.length - 1
